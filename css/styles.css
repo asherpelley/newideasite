@@ -1,0 +1,314 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #F6F5F5;
+
+}
+
+h1 {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat";
+}
+
+.icon {
+  color: #2EC1AC;
+  margin-bottom: 1rem;
+}
+
+.boxes {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon:hover {
+  color: #FF5722;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation-bar */
+.navbar {
+  padding: 0 0 7%;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+
+
+.nav-item {
+  padding: 0 6px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* title-image */
+.title-image {
+  position: relative;
+  left: 25%;
+}
+
+#features {
+  padding: 20%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* testimonial-section */
+#testimonials {
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  padding: 1% 15% 0;
+
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1px;
+}
+
+
+
+.press-logo {
+  position: relative;
+  width: 100px;
+  margin: 0 20px 5px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  background-color: #F6F5F5;
+  padding-top: 12%;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-btn {
+  background-color: #2EC1AC;
+  border-color: #2EC1AC;
+}
+
+.price-btn:hover {
+  background-color: #393B44;
+  border-color: #393B44;
+}
+
+.left-price {
+  color: #F6F5F5;
+  background-color: #F688BB;
+  border-color: #F688BB;
+}
+
+.left-price:hover {
+  background-color: #F688BB;
+  border-color: #F688BB;
+}
+
+/* FOOTER SECTION  */
+.caller {
+  background-color: #2EC1AC;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 800;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+
+
+#footer {
+  text-align: center;
+}
+
+.aa{
+  margin-top: 10%;
+  color: black;
+  padding: 0 16px 16px 16px;
+}
+
+.cp {
+
+  padding: 0 0 16px;
+}
+
+.lastone {
+  position: relative;
+  top: 15px;
+}
+
+.dog {
+  position: relative;
+  left: 10px;
+}
+
+.leaf{
+  color: #2EC1AC;
+}
+
+.juice-pic{
+  border-radius: 100%;
+}
+
+.features-h3{
+  color: black;
+}
+
+.cup{
+  margin-bottom: 15px;
+}
+
+.menuhead{
+  position: relative;
+  bottom: 25px;
+  color: #ff4c68;
+  font-weight: bold;
+  font-size: 2.70rem;
+  font-style: italic;
+}
+
+.banner{
+  position: relative;
+  bottom: 65px;
+}
+
+.flag {
+position: relative;
+bottom: 25px;
+left: 5px;
+}
+
+.scup{
+  margin-bottom: 15px;
+
+}
+
+.sprice-text{
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+
+}
+
+.pcup{
+  position: relative;
+  bottom: 20px;
+}
+
+
+
+.menu-items {
+  text-align: center;
+  padding: 5% 2%;
+}
+
+.drinks{
+  color: #757575;
+  font-weight: 700;
+}
+
+.Menu-Juices{
+  color: black;
+  font-size: 1.25rem;
+  padding-bottom: 2%;
+  font-weight: 500;
+}
+
+
+.boxes {
+  text-align: center;
+  padding: 5%;
+}
+
+.boxes-menu{
+  padding-bottom: 3%;
+  margin-bottom: 1%;
+}
+
+.in {
+  font-size: .85rem;
+  font-weight: 500;
+}
+.whiskey {
+  color: #757575;
+}
+
+.quote{
+  position: relative;
+  right: 15px;
+  color:black;
+}
+
+.about-blurb {
+  text-align: center;
+  color: black;
+  font-weight: 400;
+}
+
+.address{
+  position: relative;
+  top: 20px;
+  font-weight: 100;
+}
+
+
+/* QUERIES */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
